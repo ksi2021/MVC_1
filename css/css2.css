@@ -1,0 +1,295 @@
+.Nowosti{
+    font-size: 15px;
+    font-family: "Georgia";
+    color: rgb(196, 196, 196);
+    line-height: 1.2;
+    text-align: left;
+    z-index: 111;
+    position: absolute;
+    left: 330px;
+    top: 22.043px;
+    border-right: 2px solid #999999;
+    margin-right: 20px;
+    padding-right: 3px;
+}
+.now{
+  position: absolute;
+  left: 10px;
+}
+
+.Uslugi{
+    font-size: 15px;
+    font-family: "Georgia";
+    color: rgb(196, 196, 196);
+    line-height: 1.2;
+    text-align: left;
+    z-index: 111;
+    position: absolute; 
+    left: 397px; 
+    top: 22.043px; 
+    border-right: 2px solid #999999; 
+    margin-right:20px; 
+    padding-right: 3px;
+}
+
+.login{
+  position: absolute;
+  top: 70px;
+  left: 655px;
+}
+
+.log:hover{
+  color: orange;
+}
+.log{
+  border: 2px solid black;
+}
+
+.regis:hover{
+    color: orange;
+}
+.regis{
+    position: absolute;
+    top: 87%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    width: 107px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.regis2:hover{
+    color: orange;
+}
+.regis2{
+    position: absolute;
+    top: 138px;
+    left: 81%;
+    transform: translate(-50%, -50%);
+    width: 107px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    font-size: 15px;
+    overflow: hidden;
+}
+.log2:hover{
+  color: orange;
+}
+.log2{
+  border: 2px solid black;
+}
+
+
+
+.prof{
+  position: absolute;
+  top:70px;
+  left: 10px;
+}
+.profknop:hover{
+  color: orange;
+}
+.profknop{
+  border: 2px solid black;
+  position: absolute;
+  top:130px;
+  left: 10px;
+}
+
+
+.servis{
+  position: absolute;
+  top:70px;
+  left: 10px;
+}
+
+
+.Glav{
+  font-size: 15px;
+  font-family: "Georgia";
+  color: rgb(196, 196, 196);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 22px;
+  top: 22.043px;
+  z-index: 111;
+ border-right: 2px solid #999999; /* Параметры линии */
+ margin-right: 20px; /* Отступ */
+ padding-right: 4px; /* Расстояние от линии до текста */
+}
+.Glav:hover
+{
+ cursor:pointer;
+}
+
+
+.Cont{
+  font-size: 15px;
+  font-family: "Georgia";
+  color: rgb(196, 196, 196);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 252px;
+  top: 22.043px;
+  z-index: 111;
+  border-right: 2px solid #999999; /* Параметры линии */ 
+  margin-right: 2px; /* Отступ */ 
+  padding-right: 4px; /* Расстояние от линии до текста */
+
+}
+.Cont:hover
+{
+ cursor:pointer;
+}
+
+.cont{
+  position: absolute;
+  left: 770px;
+  top: 70px;
+}
+
+
+.Test{
+  font-size: 15px;
+  font-family: "Georgia";
+  color: rgb(196, 196, 196);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 90px;
+  top: 22.043px;
+  z-index: 111;
+  border-right: 2px solid #999999; /* Параметры линии */
+ margin-right: 20px; /* Отступ */
+ padding-right: 4px; /* Расстояние от линии до текста */
+}
+.Test:hover
+{
+ cursor:pointer;
+}
+
+
+.Portf{
+  font-size: 15px;
+  font-family: "Georgia";
+  color: rgb(196, 196, 196);
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 163px;
+  top: 22.043px;
+  z-index: 111;
+  border-right: 2px solid #999999; /* Параметры линии */
+  margin-right: 20px; /* Отступ */
+  padding-right: 4px; /* Расстояние от линии до текста */
+}
+.Portf:hover
+{
+ cursor:pointer;
+}
+
+
+.Copyright{
+  font-size: 13px;
+  font-family: "Georgia";
+  color: rgb(145, 145, 145);
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  left: 20px;
+  top: 25px;
+}
+
+.Template{
+  font-size: 12px;
+  font-family: "Georgia";
+  color: rgb(145, 145, 145);
+  line-height: 1;
+  text-align: right;
+  position: absolute;
+  left: 1740px;
+  top: 25px;
+  z-index: 4;
+}
+
+
+.q404{
+  position: absolute;
+  left: 655px;
+  top: 85px;
+}
+
+.ain{
+  position: absolute;
+  top: 70px;
+  left: 655px;
+}
+
+.abl{
+  position: absolute;
+  left: 770px;
+  top: 65px;
+}
+
+
+.pu{
+  padding-top: 160px;
+  padding-left: 200px;
+  width: 90%;
+
+}
+
+
+.admin{
+  position: absolute;
+  left: 10px;
+  top: 70px;
+}
+
+
+
+header
+{
+  background-color: rgb(45, 41, 40);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+}
+
+
+a {
+text-decoration:none
+}
+a:active {
+text-decoration:none
+}
+a:visited {
+color:#999999;
+text-decoration:none
+}
+a:hover {
+color:orange;
+text-decoration: none
+}
+
+
+footer{
+  background-color: rgb(35, 35, 35);
+  position: absolute;
+  left: 0px;
+  top: 2040px;
+  position: absolute;
+  width: 1000px;
+  height: 64px;
+  min-width: 100%;
+}
