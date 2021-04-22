@@ -22,7 +22,8 @@ class Controller_User extends Controller
     {
         $rez = null;
         if ($_POST) {
-            foreach ($this->model->get_data() as $el){
+            foreach ($this->model->get_data() as $el)
+            {
                 if($el['email'] == $_POST['email'] && $el['password'] == $_POST['password'] && $el['status'] == "admin") {
                     Session::SetUser($el);
                     $rez = json_encode(["status" => true]);break;}

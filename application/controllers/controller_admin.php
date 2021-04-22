@@ -34,6 +34,9 @@ class Controller_Admin extends Controller
                 case 'portfolio':
                     $e =  $this->model->delete($_POST['id'],$_POST['type']);
                     echo "<script> window.location.pathname = '/admin/portfolio/';</script>";
+
+                default:
+                    break;
             }
 
         }
