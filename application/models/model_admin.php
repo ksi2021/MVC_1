@@ -7,6 +7,12 @@ class Model_Admin extends Model{
         return $result;
     }
 
+    public function get_news(){
+        $query = "SELECT * FROM news ORDER BY id DESC";
+        $result = mysqli_query($this->link,$query);
+        return $result;
+    }
+
     public function delete($id,$table){
         $query = "DELETE FROM {$table} WHERE id={$id}";
         $result = mysqli_query($this->link,$query);
@@ -27,6 +33,7 @@ class Model_Admin extends Model{
 
     public function update_record($table,$params,$values){
         $query = "UPDATE {$table} SET {$params} WHERE {$values}";
+       // var_dump($query);die();
         $result = mysqli_query($this->link,$query);
     }
 }

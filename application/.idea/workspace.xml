@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="43634857-7ff6-45a4-a43c-3f2a06c75efa" name="Default Changelist" comment="">
+    <list default="true" id="43634857-7ff6-45a4-a43c-3f2a06c75efa" name="Default Changelist" comment="22.04.2021">
+      <change afterPath="$PROJECT_DIR$/controllers/controller_news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/model_news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Admin/newsEdit_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/Admin/news_view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/news_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/controller_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/controller_admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/controller_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/controller_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Admin/template_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/Admin/template_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/template_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/template_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +64,48 @@
       <option name="presentableId" value="Default" />
       <updated>1619003093956</updated>
       <workItem from="1619003095041" duration="13763000" />
-      <workItem from="1619077095439" duration="5161000" />
+      <workItem from="1619077095439" duration="13655000" />
     </task>
+    <task id="LOCAL-00001" summary="22.04.2021">
+      <created>1619084759923</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1619084759923</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="22.04.2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.04.2021" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="775" y="243" key="NewPhpClassDialog" timestamp="1619008498845">
+    <state x="775" y="243" key="NewPhpClassDialog" timestamp="1619088529288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="775" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619008498845" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1619013392348">
+    <state x="775" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619088529288" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1619092591795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619013392348" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619092591795" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1619084777790">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619084777790" />
   </component>
 </project>

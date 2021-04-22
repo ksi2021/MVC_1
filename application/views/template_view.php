@@ -52,7 +52,8 @@ Modified by VitalySwipe
                 <li class="first active"><a href="/">Главная</a></li>
                 <li><a href="/services">Услуги</a></li>
                 <li><a href="/portfolio">Портфолио</a></li>
-                <li class="last"><a href="/contacts">Контакты</a></li>
+                <li class="last"><a href="/news">Новости</a></li>
+
             </ul>
             <br class="clearfix"/>
         </div>
@@ -87,6 +88,7 @@ Modified by VitalySwipe
                     <li><a href="/services">Услуги</a></li>
                     <li><a href="/portfolio">Портфолио</a></li>
                     <li><a href="/contacts">Контакты</a></li>
+                    <li><a href="/news">Новости</a></li>
                     <?php if (Session::GetUser()): ?>
                         <?php if (Session::GetUser()['status'] == 'admin'): ?>
                             <li class=""><a href="/admin/">Admin <i class="fas fa-dragon"></i></li>
@@ -156,3 +158,9 @@ Modified by VitalySwipe
 </div>
 </body>
 </html>
+
+<style>
+    ul{
+        margin-bottom: -1em;
+    }
+</style>
