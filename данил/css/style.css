@@ -1,0 +1,17 @@
+ header {
+     background-color: #005cbf;
+ }
+ 
+ .col>a {
+     color: white;
+ }
+ 
+ .col>a:hover {
+     color: lightgrey;
+     text-decoration: none;
+ }
+ 
+ a>h5 {
+     margin-right: 3em;
+     display: inline;
+ }
