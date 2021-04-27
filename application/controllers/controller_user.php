@@ -41,18 +41,19 @@ class Controller_User extends Controller
     public function action_post_register()
     {
         $e = null;
-        if ($_POST) {
+        if ($_POST)
+        {
             foreach ($this->model->get_data() as $el)
             {
                if($el['email'] == $_POST['email'])$e = true;
             }
-            if($e == null){
-                $this->model->add_record('`users`','(`id`,`email`,`password`,`status`,`username`)',"NULL,'{$_POST['email']}' , '{$_POST['password']}', 'user','{$_POST['username']}'");
+            if($e == null)
+            {$this->model->add_record('`users`','(`id`,`email`,`password`,`status`,`username`)',"NULL,'{$_POST['email']}' , '{$_POST['password']}', 'user','{$_POST['username']}'");
             header('Location: /user/login');
             }
             header('Location: /user/register/?error=true');
         }
-
+        header('Location: /user/register');
 
     }
 
