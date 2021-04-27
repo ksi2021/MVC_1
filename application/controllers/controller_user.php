@@ -24,9 +24,9 @@ class Controller_User extends Controller
         if ($_POST) {
             foreach ($this->model->get_data() as $el)
             {
-                if($el['email'] == $_POST['email'] && $el['password'] == $_POST['password'] && $el['status'] == "admin") {
+                if($el['email'] == $_POST['email'] && $el['password'] == $_POST['password']) {
                     Session::SetUser($el);
-                    $rez = json_encode(["status" => true]);break;}
+                    $rez = json_encode(["status" => true ,'user' => Session::GetUser()]);break;}
             }
             if($rez != null){echo $rez;}
             else{echo json_encode(
@@ -40,12 +40,19 @@ class Controller_User extends Controller
 
     public function action_post_register()
     {
+        $e = null;
         if ($_POST) {
-            foreach ($this->model->get_data() as $el){
-                if($el['email'] == $_POST['email'] && $el['password'] == $_POST['password'] && $el['status'] == "admin") echo json_encode(["status" => true ]);
+            foreach ($this->model->get_data() as $el)
+            {
+               if($el['email'] == $_POST['email'])$e = true;
             }
+            if($e == null){
+                $this->model->add_record('`users`','(`id`,`email`,`password`,`status`,`username`)',"NULL,'{$_POST['email']}' , '{$_POST['password']}', 'user','{$_POST['username']}'");
+            header('Location: /user/login');
+            }
+            header('Location: /user/register/?error=true');
         }
-        else{ echo json_encode(["status" => false]);}
+
 
     }
 

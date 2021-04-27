@@ -133,7 +133,7 @@
         });
       var jqxhr = $.post( "/user/post_login", { email: $('#email').val(), password : $('#password').val()})
             .done(function (data) {
-               console.log(JSON.parse(data));
+             //  console.log(JSON.parse(data));
                 $('#email').val('');
                 $('#password').val('');
                 switch(JSON.parse(data).status) {
@@ -145,8 +145,13 @@
 
                     case true:
                         alert("Вы успешно авторизировалсь");
-                        let e = confirm('Перейти в панель администратора ?')
-                        if(e == true){ window.location.pathname = "/admin/";}
+
+
+                        if(JSON.parse(data).user['status'] == "admin")
+                        {
+                            let e = confirm('Перейти в панель администратора ?')
+                            if(e == true){ window.location.pathname = "/admin/";}
+                        }
                         else{window.location.reload()}
                         break;
                 }

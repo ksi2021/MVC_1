@@ -9,5 +9,9 @@ class Model_User extends Model
         $result = mysqli_query($this->link, $query);
         return $result != false ? $result : null;
     }
+    public function add_record($table,$params,$values){
+        $query = "INSERT INTO {$table} {$params} VALUES ({$values})";
+        $result = mysqli_query($this->link,$query);
+    }
 
 }

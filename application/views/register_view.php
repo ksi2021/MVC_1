@@ -1,3 +1,8 @@
+<?php if(isset($_GET['error'])): ?>
+    <div class="error" style="color: red;border: 2px solid crimson;border-radius: 10px;padding-top: 20px;text-align: center;margin-bottom: 15px;">
+        <h2>Ошибка при регистрации</h2>
+    </div>
+<?php endif; ?>
 <form method="post" class="border rounded border-primary p-2" action="/user/post_register">
     <h3>Регистрация</h3>
     <div class="form-group">

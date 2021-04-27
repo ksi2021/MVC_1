@@ -10,27 +10,94 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43634857-7ff6-45a4-a43c-3f2a06c75efa" name="Default Changelist" comment="22.04.2021">
-      <change afterPath="$PROJECT_DIR$/controllers/controller_news.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/model_news.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/Admin/newsEdit_view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/Admin/news_view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/news_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/controller_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/controller_admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Admin/template_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/Admin/template_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/template_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/template_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/controller_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/controller_news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/controller_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/controller_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/model.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_news.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/login_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/news_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/news_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/register_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/.bowerrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/Vagrantfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/assets/AppAsset.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/codeception.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/commands/HelloController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/config/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/config/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/config/params.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/config/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/config/test_db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/config/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/controllers/SiteController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/mail/layouts/html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/models/ContactForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/models/LoginForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/requirements.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/runtime/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/_bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/_data/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/_data/dump.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/_output/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/_support/AcceptanceTester.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/_support/FunctionalTester.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/_support/UnitTester.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/acceptance.suite.yml.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/acceptance/AboutCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/acceptance/ContactCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/acceptance/HomeCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/acceptance/LoginCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/acceptance/_bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/bin/yii" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/bin/yii.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/functional.suite.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/functional/ContactFormCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/functional/LoginFormCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/functional/_bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/unit.suite.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/unit/_bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/unit/_config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/unit/models/ContactFormTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/unit/models/LoginFormTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/tests/unit/models/UserTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/vagrant/config/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/vagrant/config/vagrant-local.example.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/vagrant/nginx/app.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/vagrant/nginx/log/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/vagrant/provision/always-as-root.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/vagrant/provision/once-as-root.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/vagrant/provision/once-as-vagrant.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/vagrant/provision/provision.awk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/views/layouts/main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/views/site/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/views/site/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/views/site/error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/views/site/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/views/site/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/web/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/web/assets/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/web/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/web/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/web/index-test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/web/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/web/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/widgets/Alert.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/yii" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic/yii.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../htdocs.7z" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +108,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1rTbatFxyC0226f0RffBG9iwjIl" />
@@ -65,6 +133,8 @@
       <updated>1619003093956</updated>
       <workItem from="1619003095041" duration="13763000" />
       <workItem from="1619077095439" duration="13655000" />
+      <workItem from="1619443111478" duration="1743000" />
+      <workItem from="1619509557610" duration="3606000" />
     </task>
     <task id="LOCAL-00001" summary="22.04.2021">
       <created>1619084759923</created>
@@ -89,6 +159,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="22.04.2021" />
@@ -107,5 +178,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619084777790" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1619437198083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1619437198083" />
   </component>
 </project>

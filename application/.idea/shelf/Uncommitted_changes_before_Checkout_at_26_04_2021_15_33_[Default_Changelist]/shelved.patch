@@ -1,0 +1,82 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"43634857-7ff6-45a4-a43c-3f2a06c75efa\" name=\"Default Changelist\" comment=\"22.04.2021\">\n      <change afterPath=\"$PROJECT_DIR$/controllers/controller_news.php\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/models/model_news.php\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/views/Admin/newsEdit_view.php\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/views/Admin/news_view.php\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/views/news_view.php\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/controllers/controller_admin.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/controllers/controller_admin.php\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/models/model_admin.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/models/model_admin.php\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/views/Admin/template_view.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/views/Admin/template_view.php\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/views/template_view.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/views/template_view.php\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/../css/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../css/style.css\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\">\n    <execution />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1rTbatFxyC0226f0RffBG9iwjIl\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"43634857-7ff6-45a4-a43c-3f2a06c75efa\" name=\"Default Changelist\" comment=\"\" />\n      <created>1619003093956</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1619003093956</updated>\n      <workItem from=\"1619003095041\" duration=\"13763000\" />\n      <workItem from=\"1619077095439\" duration=\"13655000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"22.04.2021\">\n      <created>1619084759923</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1619084759923</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"22.04.2021\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"22.04.2021\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"775\" y=\"243\" key=\"NewPhpClassDialog\" timestamp=\"1619088529288\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\n    </state>\n    <state x=\"775\" y=\"243\" key=\"NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1619088529288\" />\n    <state x=\"794\" y=\"443\" key=\"NewPhpFileDialog\" timestamp=\"1619092591795\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\n    </state>\n    <state x=\"794\" y=\"443\" key=\"NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1619092591795\" />\n    <state x=\"552\" y=\"240\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1619084777790\">\n      <screen x=\"0\" y=\"0\" width=\"1920\" height=\"1040\" />\n    </state>\n    <state x=\"552\" y=\"240\" key=\"Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040\" timestamp=\"1619084777790\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 44a4f6372c5c3b60346cbdda1f677714f928ecd8)
++++ .idea/workspace.xml	(date 1619425793274)
+@@ -19,18 +19,8 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="43634857-7ff6-45a4-a43c-3f2a06c75efa" name="Default Changelist" comment="22.04.2021">
+-      <change afterPath="$PROJECT_DIR$/controllers/controller_news.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/models/model_news.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/views/Admin/newsEdit_view.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/views/Admin/news_view.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/views/news_view.php" afterDir="false" />
++    <list default="true" id="43634857-7ff6-45a4-a43c-3f2a06c75efa" name="Default Changelist" comment="update 22.04.2021">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/controllers/controller_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/controller_admin.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/models/model_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/model_admin.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/views/Admin/template_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/Admin/template_view.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/views/template_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/template_view.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../css/style.css" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -64,7 +54,8 @@
+       <option name="presentableId" value="Default" />
+       <updated>1619003093956</updated>
+       <workItem from="1619003095041" duration="13763000" />
+-      <workItem from="1619077095439" duration="13655000" />
++      <workItem from="1619077095439" duration="14293000" />
++      <workItem from="1619425062181" duration="683000" />
+     </task>
+     <task id="LOCAL-00001" summary="22.04.2021">
+       <created>1619084759923</created>
+@@ -73,7 +64,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1619084759923</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="update 22.04.2021">
++      <created>1619095040224</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1619095040224</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -89,10 +87,12 @@
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="22.04.2021" />
+-    <option name="LAST_COMMIT_MESSAGE" value="22.04.2021" />
++    <MESSAGE value="update 22.04.2021" />
++    <option name="LAST_COMMIT_MESSAGE" value="update 22.04.2021" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="775" y="243" key="NewPhpClassDialog" timestamp="1619088529288">
+@@ -103,9 +103,9 @@
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1619092591795" />
+-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1619084777790">
++    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1619095045484">
+       <screen x="0" y="0" width="1920" height="1040" />
+     </state>
+-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619084777790" />
++    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619095045484" />
+   </component>
+ </project>
+\ No newline at end of file
