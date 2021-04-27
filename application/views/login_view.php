@@ -151,6 +151,7 @@
                         {
                             let e = confirm('Перейти в панель администратора ?')
                             if(e == true){ window.location.pathname = "/admin/";}
+                            else{window.location.reload()}
                         }
                         else{window.location.reload()}
                         break;

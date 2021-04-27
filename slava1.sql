@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1
--- Время создания: Апр 21 2021 г., 16:57
+-- Время создания: Апр 27 2021 г., 11:47
 -- Версия сервера: 10.4.11-MariaDB
 -- Версия PHP: 7.4.5
 
@@ -30,6 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `comments` (
   `id` int(11) NOT NULL,
   `text` text NOT NULL,
+  `author` varchar(255) NOT NULL,
   `user_id` int(11) NOT NULL,
   `news_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -38,11 +39,20 @@ CREATE TABLE `comments` (
 -- Дамп данных таблицы `comments`
 --
 
-INSERT INTO `comments` (`id`, `text`, `user_id`, `news_id`) VALUES
-(1, '1', 0, 0),
-(8, 'слава лох', 5, 1),
-(9, 'слава лох 2', 5, 1),
-(10, '1', 5, 1);
+INSERT INTO `comments` (`id`, `text`, `author`, `user_id`, `news_id`) VALUES
+(1, '12345678', 'user', 5, 18),
+(2, '2345346', 'user', 5, 18),
+(3, '456456', 'user', 5, 18),
+(4, '456456456', 'user', 5, 18),
+(5, '657567567', 'user', 5, 18),
+(6, '345345345', 'user', 5, 18),
+(7, '456456456', 'user', 5, 18),
+(8, '3453453453', 'user', 5, 18),
+(9, '456456456', 'user', 5, 18),
+(10, '12312312\r\n1234234\r\n3456457548758\r\n645674678568585856', 'user', 5, 18),
+(11, '12312312 1234234 3456457548758 64567467856858585612312312 1234234 3456457548758 64567467856858585612312312 1234234 3456457548758 64567467856858585612312312 1234234 3456457548758 64567467856858585612312312 1234234 3456457548758 645674678568585856', 'user', 5, 18),
+(12, '1', 'user', 5, 18),
+(19, '2134', 'admin', 6, 18);
 
 -- --------------------------------------------------------
 
@@ -51,17 +61,21 @@ INSERT INTO `comments` (`id`, `text`, `user_id`, `news_id`) VALUES
 --
 
 CREATE TABLE `news` (
+  `id` int(11) NOT NULL,
   `title` varchar(255) NOT NULL,
   `text` text NOT NULL,
-  `id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  `date` varchar(100) NOT NULL,
+  `author` varchar(100) NOT NULL,
+  `author_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Дамп данных таблицы `news`
 --
 
-INSERT INTO `news` (`title`, `text`, `id`) VALUES
-('123', '123', 1);
+INSERT INTO `news` (`id`, `title`, `text`, `date`, `author`, `author_id`) VALUES
+(8, '1', '1', '22:04:2021 13:48', 'admin', 6),
+(18, 'test', 'test', '22:04:2021 13:50', 'test', 6);
 
 -- --------------------------------------------------------
 
@@ -81,8 +95,9 @@ CREATE TABLE `portfolio` (
 --
 
 INSERT INTO `portfolio` (`ID`, `Year`, `Name`, `Info`) VALUES
-(5, 1999, 'test', 'lorem ipsum'),
-(6, 2020, '999', '1');
+(5, 666, 'test', 'lorem ipsum'),
+(6, 2020, '1234567890', '1'),
+(8, 1, '1', '1');
 
 -- --------------------------------------------------------
 
@@ -104,7 +119,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `email`, `password`, `status`, `username`) VALUES
 (5, '1@mail.ru', '123', 'user', 'user'),
-(6, '2@mail.ru', '123', 'admin', 'admin');
+(6, '2@mail.ru', '123', 'admin', 'admin'),
+(7, 'serj.cononenko2012@mail.ru', 'admin', 'user', 'admin');
 
 --
 -- Индексы сохранённых таблиц
@@ -144,25 +160,25 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT для таблицы `comments`
 --
 ALTER TABLE `comments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT для таблицы `news`
 --
 ALTER TABLE `news`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT для таблицы `portfolio`
 --
 ALTER TABLE `portfolio`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT для таблицы `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

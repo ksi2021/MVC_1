@@ -20,4 +20,8 @@ class Model_News extends Model
 //        die();
 
     }
+    public function delete_comment($id){
+        $query = "DELETE FROM `comments` WHERE `id`={$id}";
+        $result = mysqli_query($this->link, $query);
+    }
 }

@@ -14,7 +14,7 @@
             <h4>Форма добавления комментария</h4>
             <input type="hidden" name="post_id" value="<?= $row['id']; ?>">
             <textarea name="text" id="" cols="40" rows="5" placeholder="Введите коментарий"></textarea><br>
-            <button type="submit">добавить</button>
+            <button type="submit" name="add" value="true">добавить</button>
         </form>
         <?php endif; ?>
 
@@ -26,9 +26,9 @@
                     <?php if($el['news_id'] == $row['id']): ?>
                         <div class="comment">
                             <?php if($el['user_id'] == Session::GetUser()['id']): ?>
-                                <form action="" style="float: right">
-                                    <input type="hidden" name="post_id" value="<?= $el['id']; ?>">
-                                    <button type="submit">
+                                <form action="" method="post" style="float: right">
+                                    <input type="hidden" name="comment_id" value="<?= $el['id']; ?>">
+                                    <button type="submit" name="delete" value="true">
                                         <i class="fas fa-trash"></i>
                                     </button>
                                 </form>
