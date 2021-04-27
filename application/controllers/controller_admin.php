@@ -27,26 +27,7 @@ class Controller_Admin extends Controller
     {
         $this->view->generate('Admin/main_view.php', 'Admin/template_view.php');
     }
-    public function action_delete(){
-        if($_POST){
 
-            switch ($_POST['type']){
-                case 'portfolio':
-                    $e =  $this->model->delete($_POST['id'],$_POST['type']);
-                    echo "<script> window.location.pathname = '/admin/portfolio/';</script>";
-
-                case 'news':
-                    $e =  $this->model->delete($_POST['id'],$_POST['type']);
-                    echo "<script> window.location.pathname = '/admin/news/';</script>";
-
-                default:
-                    break;
-            }
-
-        }
-        echo "<script> window.location.pathname = '/admin/';</script>";
-
-    }
     public function action_portfolio()
     {
         if($_POST)
@@ -55,6 +36,11 @@ class Controller_Admin extends Controller
         }
         $data = $this->model->get_portfolio();
         $this->view->generate('Admin/portfolio_view.php', 'Admin/template_view.php' , $data);
+    }
+
+    public function action_users(){
+        $e = $this->model->get_users();
+        $this->view->generate('Admin/users_view.php','Admin/template_view.php',$e);
     }
 
     public function action_news()
@@ -67,6 +53,12 @@ class Controller_Admin extends Controller
         }
         $data = $this->model->get_news();
         $this->view->generate('Admin/news_view.php', 'Admin/template_view.php' , $data);
+    }
+    public function action_comments()
+    {
+
+        $data = $this->model->get_comments();
+        $this->view->generate('Admin/comments_view.php', 'Admin/template_view.php' , $data);
     }
 
     public function action_edit(){
@@ -83,12 +75,55 @@ class Controller_Admin extends Controller
                     $e = $this->model->get_record($_GET['id'],$_GET['table']);
                     $this->view->generate('Admin/newsEdit_view.php','Admin/template_view.php',$e);
                     break;
+
+                case "users":
+                    if($_POST){$this->model->update_record('`users`',"`username`='{$_POST['username']}',`email`='{$_POST['email']}',`status`='{$_POST['status']}',`password`='{$_POST['password']}'","`id`={$_POST['id']}");}
+                    $e = $this->model->get_record($_GET['id'],$_GET['table']);
+                    $this->view->generate('Admin/usersEdit_view.php','Admin/template_view.php',$e);
+                    break;
+
+                case "comments":
+                    if($_POST){$this->model->update_record('`comments`',"`text`='{$_POST['text']}'","`id`={$_POST['id']}");}
+                    $e = $this->model->get_record($_GET['id'],$_GET['table']);
+                    $this->view->generate('Admin/commentsEdit_view.php','Admin/template_view.php',$e);
+                    break;
+
                 default:
                     header('Location: /admin/');
             }
         }
         else{header('Location: /admin/');}
     }
+
+    public function action_delete(){
+        if($_POST){
+
+            switch ($_POST['type']){
+                case 'portfolio':
+                    $e =  $this->model->delete($_POST['id'],$_POST['type']);
+                    echo "<script> window.location.pathname = '/admin/portfolio/';</script>";
+
+                case 'news':
+                    $e =  $this->model->delete($_POST['id'],$_POST['type']);
+                    echo "<script> window.location.pathname = '/admin/news/';</script>";
+
+                case 'users':
+                    $e =  $this->model->delete($_POST['id'],$_POST['type']);
+                    echo "<script> window.location.pathname = '/admin/users/';</script>";
+
+                case 'comments':
+                    $e =  $this->model->delete($_POST['id'],$_POST['type']);
+                    echo "<script> window.location.pathname = '/admin/comments/';</script>";
+
+                default:
+                    break;
+            }
+
+        }
+        echo "<script> window.location.pathname = '/admin/';</script>";
+
+    }
+
 
 
 

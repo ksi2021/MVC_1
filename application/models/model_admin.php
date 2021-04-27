@@ -12,6 +12,16 @@ class Model_Admin extends Model{
         $result = mysqli_query($this->link,$query);
         return $result;
     }
+    public function get_users(){
+        $query = "SELECT * FROM users";
+        $result = mysqli_query($this->link,$query);
+        return $result;
+    }
+    public function get_comments(){
+        $query = "SELECT * FROM comments ORDER BY id DESC";
+        $result = mysqli_query($this->link,$query);
+        return $result;
+    }
 
     public function delete($id,$table){
         $query = "DELETE FROM {$table} WHERE id={$id}";

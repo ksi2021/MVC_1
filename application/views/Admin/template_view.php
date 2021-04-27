@@ -21,11 +21,10 @@
         </div>
         <div id="menu">
             <ul>
-                <li class="first active"><a href="/admin">Главная</a></li>
-
-                <li><a href="/admin/portfolio">Портфолио</a></li>
+                <li class="first active"><a href="/admin/portfolio">Портфолио</a></li>
                 <li><a href="/admin/news">Новости</a></li>
-
+                <li><a href="/admin/users">Пользователи</a></li>
+                <li><a href="/admin/comments">Комментарии</a></li>
             </ul>
             <br class="clearfix"/>
         </div>
